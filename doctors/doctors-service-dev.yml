@@ -1,11 +1,16 @@
 app:
-  message: :: Doctors Development ::
+  message: :: Doctors Production ::
 
 spring:
   datasource:
     username: root
     password: root
-    url: jdbc:h2:mem:doctorsdb
+    url: jdbc:mysql://localhost:3306/medical_center_doctor?createDatabaseIfNotExist=true
+  sql:
+    init:
+      platform: mysql
+      data-locations: classpath:data-mysql.sql
+      mode: always
   jpa:
     show-sql: true
     hibernate:
