@@ -7,9 +7,10 @@ spring:
       enabled: true
       path: /h2-console
   datasource:
-    username: root
-    password: root
-    url: jdbc:h2:mem:doctorsdb
+    initialization-mode: embedded
+    username: sa
+    password: 
+    url: jdbc:h2:mem:doctorsdb;MODE=MySQL;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE
   sql:
     init:
       platform: h2
