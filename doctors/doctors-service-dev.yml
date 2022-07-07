@@ -1,9 +1,5 @@
 app:
   message: Doctors Development
-  
-eureka:
-  instance:
-    instance-id: ${spring:application:name}::${spring:application:instance_id:${random:value}}
 
 spring:
   datasource:
