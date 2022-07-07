@@ -15,3 +15,7 @@ spring:
     show-sql: true
     hibernate:
       ddl-auto: validate
+      
+eureka:
+  instance:
+    instance-id: ${spring.application.name}::${spring.application.instance_id:${random.value}}
