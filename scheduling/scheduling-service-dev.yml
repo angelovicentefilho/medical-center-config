@@ -14,7 +14,7 @@ spring:
   sql:
     init:
       platform: h2
-      data-locations: classpath:data-h2.sql
+      data-locations: classpath:data-test.sql
       mode: always
   jpa:
     show-sql: true
