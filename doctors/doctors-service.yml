@@ -6,11 +6,11 @@ spring:
     username: root
     password: root
     url: jdbc:mysql://localhost:3306/medical_center_doctor?createDatabaseIfNotExist=true
-#  sql:
-#    init:
-#      platform: mysql
-#      data-locations: classpath:data-mysql.sql
-#      mode: always
+  sql:
+    init:
+      platform: mysql
+      data-locations: classpath:data-mysql.sql
+      mode: always
   jpa:
     show-sql: true
     hibernate:
