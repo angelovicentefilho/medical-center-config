@@ -1,2 +1,8 @@
 app:
-  message: OAuth-DEV
+  message: OAuth Service Development
+oauth:
+  jwt:
+    secret: JWT-SECRET
+  client:
+    name: medicalcenter123
+    secret: medicalcenter123
