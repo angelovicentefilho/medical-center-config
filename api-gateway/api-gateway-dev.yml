@@ -1,2 +1,5 @@
 app:
   message: API Gateway Development
+
+auth:
+  secret: AngeloVicenteFilho
