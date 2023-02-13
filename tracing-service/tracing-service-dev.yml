@@ -1,9 +1,0 @@
-app:
-  message: Tracing Service Development
-
-eureka:
-  instance:
-    instance-id: ${spring.application.name}::${spring.application.instance_id:${random.value}}
-
-server:
-  port: 9411

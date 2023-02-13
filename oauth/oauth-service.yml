@@ -1,8 +1,0 @@
-app:
-  message: OAuth Service Production
-oauth:
-  jwt:
-    secret: JWT-SECRET
-  client:
-    name: medicalcenter123
-    secret: medicalcenter123
